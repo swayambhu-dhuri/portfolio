@@ -98,14 +98,19 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    // {
-    //   name: "HTML 5",
-    //   icon: html,
-    // },
-    // {
-    //   name: "CSS 3",
-    //   icon: css,
-    // },
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+
+    {
+      name: "TailWind",
+      icon: tailwind,
+    },
     
     {
       name: "React JS",
@@ -118,6 +123,10 @@ import {
     {
       name: "Postgresql",
       icon: postgresql,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
     },
     {
       name: "Firebase",
@@ -135,6 +144,10 @@ import {
     {
       name: "docker",
       icon: docker,
+    },
+    {
+      name: "figma",
+      icon: figma,
     }
   ];
   
