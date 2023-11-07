@@ -19,9 +19,9 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    parkez,
+    youtube,
+    todo,
     threejs,
     github_logo,
     linkedin,
@@ -216,28 +216,28 @@ import {
     {
       name: "ParkEz",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "ParkEZ is a versatile web platform connecting users with optimal parking solutions, empowering businesses to streamline lot management, and enabling targeted advertising opportunities.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "postgresql",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "fastapi",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: parkez,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "YouTube Clone",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This app transforms video-watching online. Effortlessly explore and filter content to match your unique preferences, ensuring a seamless and customized viewing experience on the internet.",
       tags: [
         {
           name: "react",
@@ -248,32 +248,32 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "firebase",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: youtube,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Task Manager",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A task manager app streamlining task organization with department-specific filters and an intuitive interface, enhancing task management and facilitating efficient tracking.",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML5",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "CSS3",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "firebase",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: todo,
       source_code_link: "https://github.com/",
     },
   ];

@@ -26,9 +26,9 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import parkez from "./parkEz.png";
+import youtube from "./Youtube_clone.png";
+import todo from "./todo.png";
 import instagram from "./instagram.svg"
 import github_logo from "./github.svg"
 import linkedin from "./linkedin.svg"
@@ -70,9 +70,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  parkez,
+  youtube,
+  todo,
   instagram,
   linkedin,
   github_logo, 
