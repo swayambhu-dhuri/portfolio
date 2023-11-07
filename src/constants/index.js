@@ -232,7 +232,7 @@ import {
         },
       ],
       image: parkez,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/swayambhu/parkEz",
     },
     {
       name: "YouTube Clone",
@@ -253,7 +253,7 @@ import {
         },
       ],
       image: youtube,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/swayambhu/Youtube-clone-React",
     },
     {
       name: "Task Manager",
@@ -274,7 +274,7 @@ import {
         },
       ],
       image: todo,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/swayambhu/To-Do-APP-Pure-JS",
     },
   ];
 

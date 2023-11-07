@@ -30,7 +30,7 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction </p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p variants={fadeIn("","", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
         I'm a skilled full-stack software developer with experience in Python and JavaScript. I've delivered over 15 projects using Django, FastAPI, ReactJS, Express, and Node.js. Proficient in front-end and back-end development, I offer efficient solutions with expertise in databases like MySQL, PostgreSQL, MongoDB, and Firebase. Currently pursuing an MS in Computer Science, I thrive in agile environments and excel at collaborating with cross-functional teams. My passion for innovative solutions, attention to detail, and commitment to excellence make me an ideal choice for any organization.
