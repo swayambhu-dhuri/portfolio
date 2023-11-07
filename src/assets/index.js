@@ -29,6 +29,20 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import instagram from "./svgtopng/instagram.png"
+import github_logo from "./svgtopng/github.png"
+import linkedin from "./svgtopng/linkedin.png"
+import phone from "./svgtopng/phone-solid.png"
+import whatsapp from "./svgtopng/whatsapp.png"
+import ufaber from "./ufaber_logo.png"
+import harmony from "./harmony--logo-removebg-preview.png"
+import python from "./Python.png"
+import django from  "./django.svg"
+import fastapi from "./fastAPI.png"
+import aws from "./Aws.png"
+import firebase from "./firebase.png"
+import mysql from './MySQL-Logo.png'
+import postgresql from './Postgresql.png'
 
 export {
   logo,
@@ -59,4 +73,18 @@ export {
   carrent,
   jobit,
   tripguide,
+  instagram,
+  linkedin,
+  github_logo, 
+  phone,
+  whatsapp,
+  ufaber,
+  harmony,
+  python,
+  django,
+  aws,
+  firebase,
+  fastapi,
+  mysql,
+  postgresql
 };

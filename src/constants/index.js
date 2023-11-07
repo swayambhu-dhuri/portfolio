@@ -23,6 +23,20 @@ import {
     jobit,
     tripguide,
     threejs,
+    github_logo,
+    linkedin,
+    instagram,
+    phone,
+    whatsapp,
+    ufaber,
+    harmony,
+    python,
+    django,
+    fastapi,
+    aws, 
+    firebase,
+    mysql,
+    postgresql
   } from "../assets";
   
   export const navLinks = [
@@ -31,8 +45,12 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "experience",
+      title: "Experience",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -42,11 +60,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Front-End Developer",
       icon: mobile,
     },
     {
@@ -54,12 +72,33 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Security Researcher",
       icon: creator,
     },
   ];
   
   const technologies = [
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "DJango",
+      icon: django,
+    },
+    {
+      name: "FastAPI",
+      icon: fastapi,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    
     {
       name: "HTML 5",
       icon: html,
@@ -68,14 +107,7 @@ import {
       name: "CSS 3",
       icon: css,
     },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    
     {
       name: "React JS",
       icon: reactjs,
@@ -89,16 +121,21 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "MySQL",
+      icon: mysql,
     },
+    {
+      name: "Postgresql",
+      icon: postgresql,
+    },
+    {
+      name: "Firebase",
+      icon: firebase,
+    },
+    
     {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
@@ -116,55 +153,29 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Software Developer",
+      company_name: "Ufaber EduTech Pvt. Ltd",
+      icon: ufaber,
+      iconBg: "#ffffff",
+      date: "Aug 2020 - Aug 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Architected and built a scalable and secure authentication microservice using Node.js and Express.js, which simplified the authentication and user management system for 100,000+ internal and external users across the company.",
+        "Programmed and deployed a fluency evaluation meter by utilizing speech-to-text analysis cloud function on the Google Cloud Platform (GCP) to improve the speech recognition model and provide feedback to users.",
+        "Built a Content Management System (CMS) using React.js and Django that serves over 10,000 users per day.",
+        "Developed a data structure for caching user data that reduced query time by 20%.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Freelance Software Developer",
+      company_name: "Harmony Aquatic Club",
+      icon: harmony,
+      iconBg: "#0C2370",
+      date: "Aug 2018 - Jan 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Reduced labor costs by 30% by developing and implementing software solutions with Python Django and React.js.",
+        "Built an end-to-end system to track and monitor users and payments with Django and PostgreSQL.",
+        "Developed and Optimized SEO-Friendly user interface with ReactJS, Redux, jQuery, and Bootstrap.",
+        "Deployed a PostgreSQL database to store 5000+ users’ data, implementing a RESTful API to automate information processing.",
       ],
     },
   ];
@@ -261,5 +272,29 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+
+  const socials = [
+    {
+      link: "https://github.com/swayambhu",
+      icon: "fa-brands fa-github"
+    },
+    {
+      link: "https://www.linkedin.com/in/swayambhu-dhuri/",
+      icon: "fa-brands fa-linkedin"
+    },
+    {
+      link: "https://www.instagram.com/swayam____0809/",
+      icon: "fa-brands fa-instagram"
+    },
+    {
+      link: "tel:+13473224419",
+      icon: "fa-solid fa-phone"
+    },
+    {
+      link: "https://wa.me/13473224419",
+      icon: "fa-brands fa-whatsapp"
+    },
+    
+  ]
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, socials };
