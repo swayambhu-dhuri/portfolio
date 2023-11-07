@@ -98,15 +98,14 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
     
     {
       name: "React JS",
@@ -115,14 +114,6 @@ import {
     {
       name: "Redux Toolkit",
       icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "MySQL",
-      icon: mysql,
     },
     {
       name: "Postgresql",
@@ -142,13 +133,9 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
-    },
+    }
   ];
   
   const experiences = [
