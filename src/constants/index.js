@@ -170,33 +170,34 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        `Swayambhu is a great professional to work with. We worked together at uFaber on several projects where in he handled the frontend designs and api integrations while I was focused on api creation. He is keen on learning new things and keeping himself updated with latest frameworks.
+        His ability to deal with challenges and come up with new ideas to achieve the results were always an inspiration. I’m delighted, I had the chance to learn a lot from him.`,
+      name: "Ashutosh Dhondkar",
+      designation: "Software Engineer",
+      company: "Karza Technologies",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "Swayambhu is very good at analytical thinking and a quick learner. Knows when and how to apply knowledge. He has good acumen of software development as a whole which make working with him easy.",
+      name: "Dishank Tak",
+      designation: "Backend SDE ||",
+      company: "Neo Wealth and Asset Management",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "In the short time frame in which we worked together, I've found Swayambhu to be a very hard working and passionate individual who deeply values his own work and asks the right questions. Proficient in both frontend and backend development, he will surely bring great value to any team he's working with.",
+      name: "Cyber Naskar",
+      designation: "Consulting Backend Engineer",
+      company: "Alleyway Capital",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "ParkEz",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
