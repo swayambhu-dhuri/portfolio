@@ -4,9 +4,10 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { socials } from "../constants";
 import styled from "styled-components";
+import { SectionWrapper } from "../hoc";
 const Hero = () => {
   return (
-    <section className={`bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-screen mx-auto`}>
+    <section id="home" className={`bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-screen mx-auto`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
