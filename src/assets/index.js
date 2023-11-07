@@ -29,10 +29,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import instagram from "./svgtopng/instagram.png"
-import github_logo from "./svgtopng/github.png"
-import linkedin from "./svgtopng/linkedin.png"
-import phone from "./svgtopng/phone-solid.png"
+import instagram from "./instagram.svg"
+import github_logo from "./github.svg"
+import linkedin from "./linkedin.svg"
+import phone from "./phone-solid.svg"
 import whatsapp from "./svgtopng/whatsapp.png"
 import ufaber from "./ufaber_logo.png"
 import harmony from "./harmony--logo-removebg-preview.png"

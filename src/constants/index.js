@@ -264,23 +264,23 @@ import {
   const socials = [
     {
       link: "https://github.com/swayambhu",
-      icon: "fa-brands fa-github"
+      icon: "bi bi-github"
     },
     {
       link: "https://www.linkedin.com/in/swayambhu-dhuri/",
-      icon: "fa-brands fa-linkedin"
+      icon: "bi bi-linkedin"
     },
     {
       link: "https://www.instagram.com/swayam____0809/",
-      icon: "fa-brands fa-instagram"
+      icon: "bi bi-instagram"
     },
     {
       link: "tel:+13473224419",
-      icon: "fa-solid fa-phone"
+      icon: "bi bi-telephone"
     },
     {
       link: "https://wa.me/13473224419",
-      icon: "fa-brands fa-whatsapp"
+      icon: "bi bi-whatsapp"
     },
     
   ]

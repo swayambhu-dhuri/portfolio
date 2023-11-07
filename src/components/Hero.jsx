@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-
+import { socials } from "../constants";
+import styled from "styled-components";
 const Hero = () => {
   return (
     <section className={`bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-screen mx-auto`}>
@@ -21,7 +22,21 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           I'm a full stack web developer, coding with precision and sipping on inspiration.
           </p>
-          
+          <SocialWrapper>
+            <ul>
+              {
+                socials.map(({link, icon}, idx) => (
+                  <li key={idx}>
+                    <a href={link} target="_blank">
+                    <i className={icon}></i>
+                    </a>
+                  </li>
+                ))
+              }
+            </ul>
+
+            <a className="button-resume" href="../assets/Swayambhu Dhuri.pdf" download>Resume</a>
+          </SocialWrapper>
         </div>
       </div>
       {/* <ComputersCanvas /> */}
@@ -37,5 +52,47 @@ const Hero = () => {
     </section>
   );
 };
+
+const SocialWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 40px;
+  ul{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+
+    li a{
+      font-size: 28px;
+    }
+  }
+           
+  
+         
+
+  .button-resume{
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    &:hover{
+      background-position: right center; /* change the direction of the change here */
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+`
 
 export default Hero;
