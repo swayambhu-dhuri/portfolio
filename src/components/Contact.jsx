@@ -37,7 +37,11 @@ const Contact = () => {
         to_name: 'Swayambhu',
         from_email: form.email,
         to_email: 'swayambhu.jobs@gmail.com',
-        message: form.message,
+        message: `
+        ${form.email}
+        ${form.message}
+        
+        `,
       },
       "3co2B7XoTW7NWjPPY"
     ).then(() => {
