@@ -160,7 +160,7 @@ import {
     {
       title: "Software Developer Engineer Intern",
       company_name: "Bank of New York (BNY) Mellon",
-      icon: ufaber,
+      icon: bny,
       iconBg: "#ffffff",
       date: "Dec 2023 - Present",
       points: [
