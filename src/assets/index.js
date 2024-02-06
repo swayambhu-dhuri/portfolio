@@ -43,6 +43,7 @@ import aws from "./Aws.png"
 import firebase from "./firebase.png"
 import mysql from './MySQL-Logo.png'
 import postgresql from './Postgresql.png'
+import bny from './bny.png'
 
 export {
   logo,
@@ -86,5 +87,6 @@ export {
   firebase,
   fastapi,
   mysql,
-  postgresql
+  postgresql,
+  bny
 };

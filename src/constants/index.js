@@ -36,7 +36,8 @@ import {
     aws, 
     firebase,
     mysql,
-    postgresql
+    postgresql,
+    bny
   } from "../assets";
   
   export const navLinks = [
@@ -157,11 +158,23 @@ import {
   
   const experiences = [
     {
-      title: "Software Developer",
-      company_name: "Ufaber EduTech Pvt. Ltd",
+      title: "Software Developer Engineer Intern",
+      company_name: "Bank of New York (BNY) Mellon",
       icon: ufaber,
       iconBg: "#ffffff",
-      date: "Aug 2020 - Aug 2021",
+      date: "Dec 2023 - Present",
+      points: [
+        "Devised a logging framework that uses machine learning algorithms to improve test case creation, leading to substantially more accurate workflow pattern analysis and generating more effective test cases.",
+        "Remodeled a Python FastAPI-based RESTful API for test case generation, implemented DRY principles to reduce code redundancy and improve document storage, and observed noticeable gains in storage efficiency and API performance.",
+        "Designed a user interface to collect user prompts and documents, enabling file sharing via the REST API, and presented responses in an easily understandable format, contributing to a smoother user experience.",
+      ],
+    },
+    {
+      title: "Full Stack Web Developer",
+      company_name: "UFaber EduTech Pvt. Ltd.",
+      icon: ufaber,
+      iconBg: "#ffffff",
+      date: "Aug 2020 - Jul 2021",
       points: [
         "Architected and built a scalable and secure authentication microservice using Node.js and Express.js, which simplified the authentication and user management system for 100,000+ internal and external users across the company.",
         "Programmed and deployed a fluency evaluation meter by utilizing speech-to-text analysis cloud function on the Google Cloud Platform (GCP) to improve the speech recognition model and provide feedback to users.",

@@ -36,7 +36,7 @@ const Hero = () => {
               }
             </ul>
 
-            <a className="button-resume" href="/Swayambhu Dhuri.pdf" download="Swayambhu Dhuri.pdf">Resume</a>
+            {/* <a className="button-resume" href="/Swayambhu Dhuri.pdf" download="Swayambhu Dhuri.pdf">Resume</a> */}
           </SocialWrapper>
         </div>
       </div>
