@@ -162,7 +162,7 @@ import {
       company_name: "Bank of New York (BNY) Mellon",
       icon: bny,
       iconBg: "#ffffff",
-      date: "Dec 2023 - Present",
+      date: "Dec 2023 - May 2024",
       points: [
         "Devised a logging framework that uses machine learning algorithms to improve test case creation, leading to substantially more accurate workflow pattern analysis and generating more effective test cases.",
         "Remodeled a Python FastAPI-based RESTful API for test case generation, implemented DRY principles to reduce code redundancy and improve document storage, and observed noticeable gains in storage efficiency and API performance.",
@@ -198,6 +198,14 @@ import {
   ];
   
   const testimonials = [
+    {
+      testimonial:
+        `I highly recommend Swayambhu for his exceptional skills in JavaScript, data science, app development, web development, and full stack engineering. He is dependable, quick, and consistently delivers tasks on time. His innovative thinking and go-getter attitude, combined with strong communication skills, make him an invaluable asset to our team. Swayambhu is a growing rock star developer who continually impresses us with his dedication and expertise.`,
+      name: "Naresh Kumar Korrapati",
+      designation: "Senior Vice President",
+      company: "BNY Mellon",
+      image: "https://randomuser.me/api/portraits/women/4.jpg",
+    },
     {
       testimonial:
         `Swayambhu is a great professional to work with. We worked together at uFaber on several projects where in he handled the frontend designs and api integrations while I was focused on api creation. He is keen on learning new things and keeping himself updated with latest frameworks.
@@ -245,7 +253,7 @@ import {
         },
       ],
       image: parkez,
-      source_code_link: "https://github.com/swayambhu/parkEz",
+      source_code_link: "https://github.com/swayambhu-dhuri/parkEz",
     },
     {
       name: "YouTube Clone",
@@ -266,7 +274,7 @@ import {
         },
       ],
       image: youtube,
-      source_code_link: "https://github.com/swayambhu/Youtube-clone-React",
+      source_code_link: "https://github.com/swayambhu-dhuri/Youtube-clone-React",
     },
     {
       name: "Task Manager",
@@ -287,13 +295,13 @@ import {
         },
       ],
       image: todo,
-      source_code_link: "https://github.com/swayambhu/To-Do-APP-Pure-JS",
+      source_code_link: "https://github.com/swayambhu-dhuri/To-Do-APP-Pure-JS",
     },
   ];
 
   const socials = [
     {
-      link: "https://github.com/swayambhu",
+      link: "https://github.com/swayambhu-dhuri",
       icon: "bi bi-github"
     },
     {
@@ -301,17 +309,17 @@ import {
       icon: "bi bi-linkedin"
     },
     {
-      link: "https://www.instagram.com/swayam____0809/",
-      icon: "bi bi-instagram"
+      link: "https://leetcode.com/u/swayambhu-dhuri/",
+      icon: "bi bi-code-slash"
     },
-    {
-      link: "tel:+13473224419",
-      icon: "bi bi-telephone"
-    },
-    {
-      link: "https://wa.me/13473224419",
-      icon: "bi bi-whatsapp"
-    },
+    // {
+    //   link: "tel:+13473224419",
+    //   icon: "bi bi-telephone"
+    // },
+    // {
+    //   link: "https://wa.me/13473224419",
+    //   icon: "bi bi-whatsapp"
+    // },
     
   ]
   
