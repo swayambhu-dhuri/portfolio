@@ -159,7 +159,7 @@ import {
   const experiences = [
       {
           title: "Software Developer Engineer",
-          company_name: "KeeperAI"
+          company_name: "KeeperAI",
           icon: docker,
           iconBg: "#ffffff",
           date: "Dec 2023 - May 2024",
