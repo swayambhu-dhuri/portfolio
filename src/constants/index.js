@@ -162,7 +162,7 @@ import {
           company_name: "KeeperAI",
           icon: docker,
           iconBg: "#ffffff",
-          date: "Dec 2023 - May 2024",
+          date: "Jan 2025 - Present",
           points: [
             "Spearheaded the modular redesign of user-facing components using React.js, Redux, and Tailwind CSS, enhancing UI responsiveness and reducing render latency across real-time dashboards.",
             "Engineered RESTful APIs with FastAPI and PostgreSQL to deliver optimized backend services, enabling seamless sentiment data retrieval across multiple integrated systems.",
@@ -177,7 +177,7 @@ import {
       company_name: "Bank of New York (BNY) Mellon",
       icon: bny,
       iconBg: "#ffffff",
-      date: "Dec 2023 - May 2024",
+      date: "Dec 2023 - Jan 2025",
       points: [
         "Devised a logging framework that uses machine learning algorithms to improve test case creation, leading to substantially more accurate workflow pattern analysis and generating more effective test cases.",
         "Remodeled a Python FastAPI-based RESTful API for test case generation, implemented DRY principles to reduce code redundancy and improve document storage, and observed noticeable gains in storage efficiency and API performance.",
