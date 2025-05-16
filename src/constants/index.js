@@ -157,8 +157,23 @@ import {
   ];
   
   const experiences = [
+      {
+          title: "Software Developer Engineer",
+          company_name: "KeeperAI"
+          icon: docker,
+          iconBg: "#ffffff",
+          date: "Dec 2023 - May 2024",
+          points: [
+            "Spearheaded the modular redesign of user-facing components using React.js, Redux, and Tailwind CSS, enhancing UI responsiveness and reducing render latency across real-time dashboards.",
+            "Engineered RESTful APIs with FastAPI and PostgreSQL to deliver optimized backend services, enabling seamless sentiment data retrieval across multiple integrated systems.",
+            "Implemented real-time synchronization with Firebase Realtime Database, allowing live sentiment score updates across team dashboards without manual refresh.",
+            "Containerized frontend and backend applications using Docker and managed reverse proxy routing through NGINX, improving deployment efficiency and maintainability.",
+            "Conducted API integration testing via Postman and automated deployment pipelines with GitHub Actions to ensure CI/CD compliance and rapid feature delivery.",
+            "Collaborated cross-functionally to modernize legacy codebases and reduced onboarding time for new developers by 80% through isolated container environments and documentation."
+          ],
+      },
     {
-      title: "Software Developer Engineer Intern",
+      title: "Software Developer Engineer",
       company_name: "Bank of New York (BNY) Mellon",
       icon: bny,
       iconBg: "#ffffff",
@@ -182,19 +197,19 @@ import {
         "Developed a data structure for caching user data that reduced query time by 20%.",
       ],
     },
-    {
-      title: "Freelance Software Developer",
-      company_name: "Harmony Aquatic Club",
-      icon: harmony,
-      iconBg: "#0C2370",
-      date: "Aug 2018 - Jan 2020",
-      points: [
-        "Reduced labor costs by 30% by developing and implementing software solutions with Python Django and React.js.",
-        "Built an end-to-end system to track and monitor users and payments with Django and PostgreSQL.",
-        "Developed and Optimized SEO-Friendly user interface with ReactJS, Redux, jQuery, and Bootstrap.",
-        "Deployed a PostgreSQL database to store 5000+ users’ data, implementing a RESTful API to automate information processing.",
-      ],
-    },
+    // {
+    //   title: "Freelance Software Developer",
+    //   company_name: "Harmony Aquatic Club",
+    //   icon: harmony,
+    //   iconBg: "#0C2370",
+    //   date: "Aug 2018 - Jan 2020",
+    //   points: [
+    //     "Reduced labor costs by 30% by developing and implementing software solutions with Python Django and React.js.",
+    //     "Built an end-to-end system to track and monitor users and payments with Django and PostgreSQL.",
+    //     "Developed and Optimized SEO-Friendly user interface with ReactJS, Redux, jQuery, and Bootstrap.",
+    //     "Deployed a PostgreSQL database to store 5000+ users’ data, implementing a RESTful API to automate information processing.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
