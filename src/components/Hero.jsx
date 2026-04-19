@@ -21,14 +21,14 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Swayambhu</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I'm a full stack web developer, coding with precision and sipping on inspiration.
+          Software Development Engineer II | Java, Python, FastAPI, Spring Boot | Building scalable, production-grade distributed systems
           </p>
           <SocialWrapper>
             <ul>
               {
                 socials.map(({link, icon}, idx) => (
                   <li key={idx}>
-                    <a href={link} target="_blank">
+                    <a href={link} target="_blank" rel="noreferrer">
                     <i className={icon}></i>
                     </a>
                   </li>

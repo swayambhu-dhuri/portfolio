@@ -1,341 +1,249 @@
-import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    parkez,
-    youtube,
-    todo,
-    threejs,
-    github_logo,
-    linkedin,
-    instagram,
-    phone,
-    whatsapp,
-    ufaber,
-    harmony,
-    python,
-    django,
-    fastapi,
-    aws, 
-    firebase,
-    mysql,
-    postgresql,
-    bny
-  } from "../assets";
-  
-  export const navLinks = [
-    {
-      id: "home",
-      title: "Home",
-    },
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "experience",
-      title: "Experience",
-    },
-    {
-      id: "projects",
-      title: "Projects",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
-  ];
-  
-  const services = [
-    {
-      title: "Full Stack Developer",
-      icon: web,
-    },
-    {
-      title: "Front-End Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Security Researcher",
-      icon: creator,
-    },
-  ];
-  
-  const technologies = [
-    {
-      name: "Python",
-      icon: python,
-    },
-    {
-      name: "DJango",
-      icon: django,
-    },
-    {
-      name: "FastAPI",
-      icon: fastapi,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
+import { web, mobile, backend, creator, ufaber, bny } from "../assets";
 
-    {
-      name: "TailWind",
-      icon: tailwind,
-    },
-    
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Postgresql",
-      icon: postgresql,
-    },
-    {
-      name: "MySQL",
-      icon: mysql,
-    },
-    {
-      name: "Firebase",
-      icon: firebase,
-    },
-    
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    }
-  ];
-  
-  const experiences = [
-      {
-          title: "Software Developer Engineer",
-          company_name: "KeeperAI",
-          icon: docker,
-          iconBg: "#ffffff",
-          date: "Jan 2025 - Present",
-          points: [
-            "Spearheaded the modular redesign of user-facing components using React.js, Redux, and Tailwind CSS, enhancing UI responsiveness and reducing render latency across real-time dashboards.",
-            "Engineered RESTful APIs with FastAPI and PostgreSQL to deliver optimized backend services, enabling seamless sentiment data retrieval across multiple integrated systems.",
-            "Implemented real-time synchronization with Firebase Realtime Database, allowing live sentiment score updates across team dashboards without manual refresh.",
-            "Containerized frontend and backend applications using Docker and managed reverse proxy routing through NGINX, improving deployment efficiency and maintainability.",
-            "Conducted API integration testing via Postman and automated deployment pipelines with GitHub Actions to ensure CI/CD compliance and rapid feature delivery.",
-            "Collaborated cross-functionally to modernize legacy codebases and reduced onboarding time for new developers by 80% through isolated container environments and documentation."
-          ],
-      },
-    {
-      title: "Software Developer Engineer",
-      company_name: "Bank of New York (BNY) Mellon",
-      icon: bny,
-      iconBg: "#ffffff",
-      date: "Dec 2023 - Jan 2025",
-      points: [
-        "Devised a logging framework that uses machine learning algorithms to improve test case creation, leading to substantially more accurate workflow pattern analysis and generating more effective test cases.",
-        "Remodeled a Python FastAPI-based RESTful API for test case generation, implemented DRY principles to reduce code redundancy and improve document storage, and observed noticeable gains in storage efficiency and API performance.",
-        "Designed a user interface to collect user prompts and documents, enabling file sharing via the REST API, and presented responses in an easily understandable format, contributing to a smoother user experience.",
-      ],
-    },
-    {
-      title: "Full Stack Web Developer",
-      company_name: "UFaber EduTech Pvt. Ltd.",
-      icon: ufaber,
-      iconBg: "#ffffff",
-      date: "Aug 2020 - Jul 2021",
-      points: [
-        "Architected and built a scalable and secure authentication microservice using Node.js and Express.js, which simplified the authentication and user management system for 100,000+ internal and external users across the company.",
-        "Programmed and deployed a fluency evaluation meter by utilizing speech-to-text analysis cloud function on the Google Cloud Platform (GCP) to improve the speech recognition model and provide feedback to users.",
-        "Built a Content Management System (CMS) using React.js and Django that serves over 10,000 users per day.",
-        "Developed a data structure for caching user data that reduced query time by 20%.",
-      ],
-    },
-    // {
-    //   title: "Freelance Software Developer",
-    //   company_name: "Harmony Aquatic Club",
-    //   icon: harmony,
-    //   iconBg: "#0C2370",
-    //   date: "Aug 2018 - Jan 2020",
-    //   points: [
-    //     "Reduced labor costs by 30% by developing and implementing software solutions with Python Django and React.js.",
-    //     "Built an end-to-end system to track and monitor users and payments with Django and PostgreSQL.",
-    //     "Developed and Optimized SEO-Friendly user interface with ReactJS, Redux, jQuery, and Bootstrap.",
-    //     "Deployed a PostgreSQL database to store 5000+ users’ data, implementing a RESTful API to automate information processing.",
-    //   ],
-    // },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        `I highly recommend Swayambhu for his exceptional skills in JavaScript, data science, app development, web development, and full stack engineering. He is dependable, quick, and consistently delivers tasks on time. His innovative thinking and go-getter attitude, combined with strong communication skills, make him an invaluable asset to our team. Swayambhu is a growing rock star developer who continually impresses us with his dedication and expertise.`,
-      name: "Naresh Kumar Korrapati",
-      designation: "Senior Vice President",
-      company: "BNY Mellon",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        `Swayambhu is a great professional to work with. We worked together at uFaber on several projects where in he handled the frontend designs and api integrations while I was focused on api creation. He is keen on learning new things and keeping himself updated with latest frameworks.
-        His ability to deal with challenges and come up with new ideas to achieve the results were always an inspiration. I’m delighted, I had the chance to learn a lot from him.`,
-      name: "Ashutosh Dhondkar",
-      designation: "Software Engineer",
-      company: "Karza Technologies",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "Swayambhu is very good at analytical thinking and a quick learner. Knows when and how to apply knowledge. He has good acumen of software development as a whole which make working with him easy.",
-      name: "Dishank Tak",
-      designation: "Backend SDE ||",
-      company: "Neo Wealth and Asset Management",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "In the short time frame in which we worked together, I've found Swayambhu to be a very hard working and passionate individual who deeply values his own work and asks the right questions. Proficient in both frontend and backend development, he will surely bring great value to any team he's working with.",
-      name: "Cyber Naskar",
-      designation: "Consulting Backend Engineer",
-      company: "Alleyway Capital",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
-  const projects = [
-    {
-      name: "ParkEz",
-      description:
-        "ParkEZ is a versatile web platform connecting users with optimal parking solutions, empowering businesses to streamline lot management, and enabling targeted advertising opportunities.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "postgresql",
-          color: "green-text-gradient",
-        },
-        {
-          name: "fastapi",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: parkez,
-      source_code_link: "https://github.com/swayambhu-dhuri/parkEz",
-    },
-    {
-      name: "YouTube Clone",
-      description:
-        "This app transforms video-watching online. Effortlessly explore and filter content to match your unique preferences, ensuring a seamless and customized viewing experience on the internet.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "firebase",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: youtube,
-      source_code_link: "https://github.com/swayambhu-dhuri/Youtube-clone-React",
-    },
-    {
-      name: "Task Manager",
-      description:
-        "A task manager app streamlining task organization with department-specific filters and an intuitive interface, enhancing task management and facilitating efficient tracking.",
-      tags: [
-        {
-          name: "HTML5",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS3",
-          color: "green-text-gradient",
-        },
-        {
-          name: "firebase",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: todo,
-      source_code_link: "https://github.com/swayambhu-dhuri/To-Do-APP-Pure-JS",
-    },
-  ];
+export const navLinks = [
+  { id: "home",       title: "Home"       },
+  { id: "about",      title: "About"      },
+  { id: "experience", title: "Experience" },
+  { id: "projects",   title: "Projects"   },
+  { id: "contact",    title: "Contact"    },
+];
 
-  const socials = [
-    {
-      link: "https://github.com/swayambhu-dhuri",
-      icon: "bi bi-github"
-    },
-    {
-      link: "https://www.linkedin.com/in/swayambhu-dhuri/",
-      icon: "bi bi-linkedin"
-    },
-    {
-      link: "https://leetcode.com/u/swayambhu-dhuri/",
-      icon: "bi bi-code-slash"
-    },
-    // {
-    //   link: "tel:+13473224419",
-    //   icon: "bi bi-telephone"
-    // },
-    // {
-    //   link: "https://wa.me/13473224419",
-    //   icon: "bi bi-whatsapp"
-    // },
-    
-  ]
-  
-  export { services, technologies, experiences, testimonials, projects, socials };
+const services = [
+  { title: "Full Stack Developer",       icon: web     },
+  { title: "Backend Engineer",           icon: backend  },
+  { title: "GenAI and LLM Integration",  icon: creator  },
+  { title: "Cloud and DevOps",           icon: mobile   },
+];
+
+export const skillCategories = [
+  {
+    category: "Languages",
+    skills: [
+      { name: "Java",       icon: "https://cdn.simpleicons.org/openjdk/ED8B00"   },
+      { name: "Python",     icon: "https://cdn.simpleicons.org/python/3776AB"    },
+      { name: "TypeScript", icon: "https://cdn.simpleicons.org/typescript/3178C6"},
+      { name: "JavaScript", icon: "https://cdn.simpleicons.org/javascript/F7DF1E"},
+      { name: "SQL",        icon: null },
+      { name: "C",          icon: null },
+    ],
+  },
+  {
+    category: "Backend",
+    skills: [
+      { name: "Spring Boot",  icon: "https://cdn.simpleicons.org/springboot/6DB33F"    },
+      { name: "FastAPI",      icon: "https://cdn.simpleicons.org/fastapi/009688"       },
+      { name: "Django",       icon: "https://cdn.simpleicons.org/django/44B78B"        },
+      { name: "Node.js",      icon: "https://cdn.simpleicons.org/nodedotjs/339933"     },
+      { name: "REST APIs",    icon: null },
+      { name: "Microservices",icon: null },
+    ],
+  },
+  {
+    category: "Frontend",
+    skills: [
+      { name: "React.js",    icon: "https://cdn.simpleicons.org/react/61DAFB"       },
+      { name: "Next.js",     icon: "https://cdn.simpleicons.org/nextdotjs/FFFFFF"   },
+      { name: "Tailwind CSS",icon: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
+      { name: "AG Grid",     icon: null },
+      { name: "ShadCN",      icon: null },
+    ],
+  },
+  {
+    category: "GenAI and ML",
+    skills: [
+      { name: "LangChain",         icon: "https://cdn.simpleicons.org/langchain/1C3C3C" },
+      { name: "PyTorch",           icon: "https://cdn.simpleicons.org/pytorch/EE4C2C"   },
+      { name: "GPT-4",             icon: "https://cdn.simpleicons.org/openai/FFFFFF"    },
+      { name: "LLM Integration",   icon: null },
+      { name: "Prompt Engineering",icon: null },
+    ],
+  },
+  {
+    category: "Databases",
+    skills: [
+      { name: "PostgreSQL", icon: "https://cdn.simpleicons.org/postgresql/4169E1"        },
+      { name: "MySQL",      icon: "https://cdn.simpleicons.org/mysql/4479A1"             },
+      { name: "MongoDB",    icon: "https://cdn.simpleicons.org/mongodb/47A248"           },
+      { name: "DynamoDB",   icon: "https://cdn.simpleicons.org/amazondynamodb/4053D6"   },
+      { name: "Redis",      icon: "https://cdn.simpleicons.org/redis/FF4438"             },
+      { name: "Firebase",   icon: "https://cdn.simpleicons.org/firebase/FFCA28"          },
+      { name: "Neo4j",      icon: "https://cdn.simpleicons.org/neo4j/008CC1"             },
+    ],
+  },
+  {
+    category: "Cloud and DevOps",
+    skills: [
+      { name: "AWS",        icon: "https://cdn.simpleicons.org/amazonwebservices/FF9900" },
+      { name: "GCP",        icon: "https://cdn.simpleicons.org/googlecloud/4285F4"       },
+      { name: "Docker",     icon: "https://cdn.simpleicons.org/docker/2496ED"            },
+      { name: "Kubernetes", icon: "https://cdn.simpleicons.org/kubernetes/326CE5"        },
+      { name: "Terraform",  icon: "https://cdn.simpleicons.org/terraform/7B42BC"         },
+      { name: "Jenkins",    icon: "https://cdn.simpleicons.org/jenkins/D24939"           },
+    ],
+  },
+  {
+    category: "Monitoring and Observability",
+    skills: [
+      { name: "Grafana",      icon: "https://cdn.simpleicons.org/grafana/F46800"  },
+      { name: "Sentry",       icon: "https://cdn.simpleicons.org/sentry/362D59"   },
+      { name: "Health Checks",icon: null },
+    ],
+  },
+  {
+    category: "Engineering Practices",
+    skills: [
+      { name: "System Design",      icon: null },
+      { name: "Distributed Systems",icon: null },
+      { name: "SOLID Principles",   icon: null },
+      { name: "Agile / Scrum",      icon: null },
+      { name: "Code Reviews",       icon: null },
+    ],
+  },
+];
+
+const experiences = [
+  {
+    title: "Software Development Engineer II",
+    company_name: "CVS Health",
+    icon: "/cvs-health.svg",
+    iconInitial: "CVS",
+    iconColor: "#CC0000",
+    iconBg: "#ffffff",
+    date: "Aug 2025 to Present",
+    location: "Irving, TX",
+    points: [
+      "Designed and developed 10+ scalable RESTful services powering an AI-driven appeals platform serving 100+ pharmacists and processing 40,000+ monthly appeals.",
+      "Optimized report generation pipeline by replacing synchronous REST calls with streamed data transfer and subprocess-based Excel generation, reducing export latency from 30s to 3s.",
+      "Architected end-to-end authentication system integrating PingFederate SSO with a custom auth service, implementing JWKS-based token validation and per-request ABAC enforcement.",
+      "Delivered a high-performance React frontend with AG Grid, reducing appeals coordinator decision time from 17 minutes to under 2 minutes.",
+    ],
+    techStack: ["FastAPI", "React", "AG Grid", "PingFederate", "JWT", "Python"],
+  },
+  {
+    title: "Software Development Engineer",
+    company_name: "KeeperAI",
+    icon: null,
+    iconInitial: "K",
+    iconBg: "#7C3AED",
+    iconColor: "#ffffff",
+    date: "Jan 2025 to Jul 2025",
+    location: "New York, NY",
+    points: [
+      "Led zero-downtime migration of legacy monolith to microservices on AWS EKS using Docker, Nginx, and Terraform, cutting deployment friction by 80%.",
+      "Architected real-time RESTful APIs with FastAPI and Firebase backing sentiment dashboards adopted by 10+ internal teams.",
+      "Built secure, fault-tolerant customer onboarding flows with React.js and AWS Lambda on a serverless stack.",
+      "Established CI-ready container pipelines with Docker Compose and async routing patterns across Python services.",
+    ],
+    techStack: ["FastAPI", "Firebase", "React", "Docker", "AWS EKS", "Terraform", "Nginx"],
+  },
+  {
+    title: "Software Development Engineer",
+    company_name: "Bank of New York Mellon",
+    icon: bny,
+    iconBg: "#ffffff",
+    date: "Oct 2023 to Jan 2025",
+    location: "New York, NY",
+    points: [
+      "Engineered a large-scale distributed data governance platform using Java, Spring Boot, and React.js microservices, processing real-time metrics from 200+ data sources across 34 distributed systems.",
+      "Developed an AI-powered test automation assistant integrating a fine-tuned GPT-3.5 Turbo model with a Spring Boot microservice, applying responsible AI practices to auto-generate test cases and cut manual QA cycles by 70%.",
+      "Built a fault-tolerant asynchronous logging infrastructure with FastAPI and Neo4j handling 10,000+ daily events, enabling proactive anomaly detection through ML pipelines.",
+      "Collaborated with quality engineering teams to design a Chrome extension capturing structured browser interaction logs for automated test coverage.",
+    ],
+    techStack: ["Java", "Spring Boot", "React", "FastAPI", "Neo4j", "GPT-3.5", "Chrome Extension"],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "uFaber Edutech",
+    icon: ufaber,
+    iconBg: "#ffffff",
+    date: "Aug 2021 to Sep 2022",
+    location: "Mumbai, India",
+    points: [
+      "Owned end-to-end design and delivery of an automated student request platform using Django REST Framework, reducing ticket resolution time from 4 weeks to under 2 days.",
+      "Developed a GCP Cloud Function integrated with Speech-to-Text APIs and custom scoring logic to generate fluency reports across 8+ evaluation categories.",
+      "Implemented CI/CD pipelines, Sentry monitoring, and health-check endpoints across containerized Django microservices, maintaining 99.95% uptime.",
+    ],
+    techStack: ["Django", "Python", "GCP", "Docker", "GitLab CI/CD", "Sentry"],
+  },
+];
+
+const testimonials = [
+  {
+    testimonial:
+      "I highly recommend Swayambhu for his exceptional skills in JavaScript, data science, app development, web development, and full stack engineering. He is dependable, quick, and consistently delivers tasks on time. His innovative thinking and go-getter attitude, combined with strong communication skills, make him an invaluable asset to our team.",
+    name: "Naresh Kumar Korrapati",
+    designation: "Senior Vice President",
+    company: "BNY Mellon",
+  },
+  {
+    testimonial:
+      "Swayambhu is a great professional to work with. We worked together at uFaber on several projects where he handled the frontend designs and API integrations while I was focused on API creation. He is keen on learning new things and keeping himself updated with the latest frameworks. His ability to deal with challenges and come up with new ideas was always an inspiration.",
+    name: "Ashutosh Dhondkar",
+    designation: "Software Engineer",
+    company: "Karza Technologies",
+  },
+  {
+    testimonial:
+      "Swayambhu is very good at analytical thinking and a quick learner. Knows when and how to apply knowledge. He has good acumen of software development as a whole, which makes working with him easy.",
+    name: "Dishank Tak",
+    designation: "Backend SDE II",
+    company: "Neo Wealth and Asset Management",
+  },
+  {
+    testimonial:
+      "In the short time we worked together, I found Swayambhu to be a very hard working and passionate individual who deeply values his work and asks the right questions. Proficient in both frontend and backend development, he will surely bring great value to any team he is working with.",
+    name: "Cyber Naskar",
+    designation: "Consulting Backend Engineer",
+    company: "Alleyway Capital",
+  },
+];
+
+const projects = [
+  {
+    name: "LiveDocs",
+    description:
+      "Real-time collaborative document editor with sub-100ms latency, live cursor tracking, and RBAC-secured document management. Delivers Google Docs-level functionality with a scalable, fault-tolerant architecture.",
+    tags: [
+      { name: "React.js",   color: "blue-text-gradient"  },
+      { name: "TypeScript", color: "green-text-gradient" },
+      { name: "Next.js",    color: "pink-text-gradient"  },
+    ],
+    image: "/livedocs-preview.svg",
+    source_code_link: "https://github.com/swayambhu-dhuri/liveblocks",
+    demo_link: "https://liveblocks-black.vercel.app",
+  },
+  {
+    name: "Horizon",
+    description:
+      "Real-time transaction tracking and secure money transfer platform with server-side authentication, live financial insights, and Plaid integration for linking external bank accounts.",
+    tags: [
+      { name: "Next.js",    color: "blue-text-gradient"  },
+      { name: "TypeScript", color: "green-text-gradient" },
+      { name: "Plaid",      color: "pink-text-gradient"  },
+    ],
+    image: "/horizon-preview.svg",
+    source_code_link: "https://github.com/swayambhu-dhuri/horizon",
+    demo_link: "https://horizon-gilt-chi.vercel.app",
+  },
+  {
+    name: "Promptopia",
+    description:
+      "Open-source AI prompt sharing community where developers discover, create, and remix prompts for large language models. Features Google OAuth, full CRUD, and a responsive feed with tag-based search.",
+    tags: [
+      { name: "Next.js",      color: "blue-text-gradient"  },
+      { name: "MongoDB",      color: "green-text-gradient" },
+      { name: "Google OAuth", color: "pink-text-gradient"  },
+    ],
+    image: "/promptopia-preview.svg",
+    source_code_link: "https://github.com/swayambhu-dhuri/promptopia",
+    demo_link: "https://promptopia-seven-red.vercel.app",
+  },
+];
+
+const socials = [
+  { link: "https://github.com/swayambhu-dhuri",              icon: "bi bi-github"     },
+  { link: "https://www.linkedin.com/in/swayambhu-dhuri/",    icon: "bi bi-linkedin"   },
+  { link: "https://leetcode.com/u/swayambhu-dhuri/",         icon: "bi bi-code-slash" },
+];
+
+export { services, experiences, testimonials, projects, socials };

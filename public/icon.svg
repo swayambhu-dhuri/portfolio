@@ -9,33 +9,21 @@
       <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.08"/>
     </linearGradient>
   </defs>
-
-  <!-- Background -->
   <rect width="100" height="100" rx="20" fill="#0a0818"/>
   <rect width="100" height="100" rx="20" fill="url(#bgGrad)"/>
-
-  <!-- Gradient border -->
   <rect x="1.5" y="1.5" width="97" height="97" rx="19"
     fill="none" stroke="url(#borderGrad)" stroke-width="2.5"/>
-
-  <!-- { — centered at x=17 so it fills the left third -->
   <text x="17" y="63"
     text-anchor="middle"
     font-family="Courier New, Lucida Console, monospace"
     font-size="56" font-weight="700" fill="#915EFF">{</text>
-
-  <!-- SD — centered in the gap between the two braces -->
   <text x="50" y="50"
     text-anchor="middle" dominant-baseline="middle"
     font-family="Arial Black, Arial, sans-serif"
     font-size="26" font-weight="900" fill="white" letter-spacing="-1">SD</text>
-
-  <!-- } — centered at x=83 to fill the right third -->
   <text x="83" y="63"
     text-anchor="middle"
     font-family="Courier New, Lucida Console, monospace"
     font-size="56" font-weight="700" fill="#915EFF">}</text>
-
-  <!-- Teal cursor block -->
   <rect x="43" y="75" width="14" height="9" rx="2" fill="#06B6D4" opacity="0.9"/>
 </svg>

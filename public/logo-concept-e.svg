@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="upper-e">
+      <!-- Upper-left triangle (S side) -->
+      <polygon points="2,2 98,2 2,98"/>
+    </clipPath>
+    <clipPath id="lower-e">
+      <!-- Lower-right triangle (D side) -->
+      <polygon points="98,2 98,98 2,98"/>
+    </clipPath>
+  </defs>
+
+  <!-- Upper-left half — deep purple -->
+  <circle cx="50" cy="50" r="47" fill="#4C1D95" clip-path="url(#upper-e)"/>
+  <!-- Lower-right half — deep teal -->
+  <circle cx="50" cy="50" r="47" fill="#0E4D5E" clip-path="url(#lower-e)"/>
+
+  <!-- Subtle inner highlight on each half -->
+  <circle cx="50" cy="50" r="47" fill="none" clip-path="url(#upper-e)"
+    stroke="#7C3AED" stroke-width="1" opacity="0.5"/>
+  <circle cx="50" cy="50" r="47" fill="none" clip-path="url(#lower-e)"
+    stroke="#06B6D4" stroke-width="1" opacity="0.5"/>
+
+  <!-- Diagonal divider line -->
+  <line x1="3" y1="3" x2="97" y2="97"
+    stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+
+  <!-- Outer circle ring -->
+  <circle cx="50" cy="50" r="47"
+    fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+
+  <!-- S — sits in upper-left area -->
+  <text x="30" y="42"
+    dominant-baseline="middle" text-anchor="middle"
+    font-family="Arial Black, Arial, sans-serif"
+    font-size="32" font-weight="900" fill="white" opacity="0.95">S</text>
+
+  <!-- D — sits in lower-right area -->
+  <text x="70" y="68"
+    dominant-baseline="middle" text-anchor="middle"
+    font-family="Arial Black, Arial, sans-serif"
+    font-size="32" font-weight="900" fill="white" opacity="0.95">D</text>
+
+  <!-- Small dots on the diagonal for visual interest -->
+  <circle cx="50" cy="50" r="3" fill="white" opacity="0.6"/>
+</svg>

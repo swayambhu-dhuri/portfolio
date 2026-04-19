@@ -1,40 +1,58 @@
 import React from 'react'
-import { BallCanvas } from './canvas'
-import { SectionWrapper } from '../hoc'
-import { technologies } from '../constants'
-import styled from 'styled-components'
+import {motion} from 'framer-motion'
+import {SectionWrapper} from '../hoc'
+import {skillCategories} from '../constants'
+import {styles} from '../styles'
+import {textVariant, fadeIn} from '../utils/motion'
+
+const SkillBadge = ({skill}) => {
+  if (skill.icon) {
+    return (
+      <div className="flex items-center gap-2 px-3 py-2 rounded-lg" style={{background: '#1d1836'}}>
+        <img
+          src={skill.icon}
+          alt={skill.name}
+          className="w-5 h-5 object-contain flex-shrink-0"
+          loading="lazy"
+        />
+        <span className="text-white-100 text-[13px] whitespace-nowrap">{skill.name}</span>
+      </div>
+    );
+  }
+  return (
+    <div className="px-3 py-2 rounded-lg" style={{background: '#1d1836'}}>
+      <span className="text-secondary text-[13px] whitespace-nowrap">{skill.name}</span>
+    </div>
+  );
+};
 
 const Tech = () => {
   return (
-    <div className="flex flex-row flex-wrap justify-center gap-10">{
-      technologies.map((technology, idx) => (
-        <div className="w-28 h-28" key={`${technology.name}-${idx}`}>
-          <TechIconWrapper>
-            <img src={technology.icon}/>
-          </TechIconWrapper>
-          {/* <BallCanvas icon={technology.icon} /> */}
-        </div>
-      ))
-    }</div>
+    <>
+      <motion.div variants={textVariant()}>
+        <p className={styles.sectionSubText}>What I work with</p>
+        <h2 className={styles.sectionHeadText}>Skills</h2>
+      </motion.div>
+
+      <div className="mt-12 flex flex-col gap-8">
+        {skillCategories.map((cat, catIdx) => (
+          <motion.div
+            key={cat.category}
+            variants={fadeIn('up', 'spring', catIdx * 0.1, 0.5)}
+          >
+            <h3 className="text-[13px] font-semibold uppercase tracking-widest mb-3" style={{color: '#915EFF'}}>
+              {cat.category}
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {cat.skills.map((skill) => (
+                <SkillBadge key={skill.name} skill={skill} />
+              ))}
+            </div>
+          </motion.div>
+        ))}
+      </div>
+    </>
   )
 }
 
-const TechIconWrapper = styled.div`
-  min-width: 50px;
-  max-width: 100px;
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  background-color: #fff8eb;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-
-  img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-`
 export default SectionWrapper(Tech, "")

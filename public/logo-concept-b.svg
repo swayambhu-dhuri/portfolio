@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <!-- Dark background with rounded corners -->
+  <rect width="100" height="100" rx="20" fill="#0a0818"/>
+  <!-- Gradient border: outer -->
+  <rect x="1.5" y="1.5" width="97" height="97" rx="19"
+    fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
+  <!-- Left curly brace { -->
+  <text x="6" y="68"
+    font-family="Courier New, monospace"
+    font-size="48" fill="#915EFF" font-weight="700">{</text>
+  <!-- SD initials -->
+  <text x="31" y="62"
+    dominant-baseline="middle" text-anchor="middle"
+    font-family="Arial Black, Arial, sans-serif"
+    font-size="22" font-weight="900" fill="white" letter-spacing="-1">SD</text>
+  <!-- Right curly brace } -->
+  <text x="68" y="68"
+    font-family="Courier New, monospace"
+    font-size="48" fill="#915EFF" font-weight="700">}</text>
+  <!-- Small teal dot — like a cursor -->
+  <rect x="45" y="78" width="8" height="10" rx="1" fill="#06B6D4" opacity="0.9"/>
+</svg>

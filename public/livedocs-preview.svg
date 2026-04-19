@@ -1,0 +1,68 @@
+<svg width="360" height="230" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230">
+  <!-- Background -->
+  <rect width="360" height="230" fill="#0f0e1a"/>
+  <!-- App bar -->
+  <rect width="360" height="44" fill="#1a1530"/>
+  <!-- Traffic lights -->
+  <circle cx="18" cy="22" r="6" fill="#ff5f57"/>
+  <circle cx="36" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="54" cy="22" r="6" fill="#28c840"/>
+  <!-- App title -->
+  <text x="76" y="27" font-family="sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">LiveDocs</text>
+  <!-- File name tab -->
+  <rect x="160" y="10" width="90" height="24" rx="4" fill="#0f0e1a"/>
+  <text x="170" y="27" font-family="sans-serif" font-size="10" fill="#aaa6c3">design-doc.md</text>
+  <!-- Collaborator avatars -->
+  <circle cx="295" cy="22" r="11" fill="#915EFF"/>
+  <text x="289" y="27" font-family="sans-serif" font-size="10" font-weight="700" fill="#fff">AL</text>
+  <circle cx="320" cy="22" r="11" fill="#00cea8"/>
+  <text x="315" y="27" font-family="sans-serif" font-size="10" font-weight="700" fill="#fff">BK</text>
+  <circle cx="345" cy="22" r="11" fill="#f59e0b"/>
+  <text x="340" y="27" font-family="sans-serif" font-size="10" font-weight="700" fill="#fff">SJ</text>
+  <!-- Document area -->
+  <rect x="20" y="54" width="320" height="166" rx="6" fill="#1e1b30"/>
+  <!-- Toolbar strip -->
+  <rect x="20" y="54" width="320" height="28" rx="6" fill="#252240"/>
+  <rect x="20" y="70" width="320" height="12" fill="#252240"/>
+  <!-- Toolbar icons (B / I / U / link) -->
+  <rect x="30" y="60" width="16" height="16" rx="3" fill="#3d3760"/>
+  <text x="34" y="73" font-family="sans-serif" font-size="11" font-weight="800" fill="#e2e8f0">B</text>
+  <rect x="52" y="60" width="16" height="16" rx="3" fill="#3d3760"/>
+  <text x="56" y="73" font-family="sans-serif" font-size="11" font-style="italic" fill="#e2e8f0">I</text>
+  <rect x="74" y="60" width="16" height="16" rx="3" fill="#3d3760"/>
+  <text x="78" y="73" text-decoration="underline" font-family="sans-serif" font-size="11" fill="#e2e8f0">U</text>
+  <line x1="100" y1="60" x2="100" y2="76" stroke="#3d3760" stroke-width="1"/>
+  <rect x="108" y="62" width="30" height="12" rx="2" fill="#3d3760"/>
+  <text x="112" y="72" font-family="sans-serif" font-size="8" fill="#aaa6c3">Normal</text>
+  <!-- Heading line -->
+  <rect x="34" y="92" width="180" height="10" rx="3" fill="#915EFF" opacity="0.9"/>
+  <!-- Body text lines -->
+  <rect x="34" y="110" width="290" height="7" rx="2" fill="#3d3760"/>
+  <rect x="34" y="122" width="270" height="7" rx="2" fill="#3d3760"/>
+  <!-- Cursor 1 (purple user - Alice) -->
+  <rect x="218" y="120" width="2" height="10" rx="1" fill="#915EFF"/>
+  <rect x="218" y="110" width="38" height="14" rx="3" fill="#915EFF"/>
+  <text x="222" y="121" font-family="sans-serif" font-size="8" font-weight="600" fill="#fff">Alice</text>
+  <!-- Highlighted text under Alice's cursor -->
+  <rect x="218" y="120" width="50" height="9" rx="1" fill="#915EFF" opacity="0.2"/>
+  <!-- More text lines -->
+  <rect x="34" y="135" width="240" height="7" rx="2" fill="#3d3760"/>
+  <rect x="34" y="147" width="280" height="7" rx="2" fill="#3d3760"/>
+  <!-- Cursor 2 (teal user - Bob) -->
+  <rect x="206" y="145" width="2" height="10" rx="1" fill="#00cea8"/>
+  <rect x="206" y="133" width="32" height="14" rx="3" fill="#00cea8"/>
+  <text x="210" y="144" font-family="sans-serif" font-size="8" font-weight="600" fill="#fff">Bob</text>
+  <!-- More text -->
+  <rect x="34" y="160" width="200" height="7" rx="2" fill="#3d3760"/>
+  <rect x="34" y="172" width="250" height="7" rx="2" fill="#3d3760"/>
+  <rect x="34" y="184" width="170" height="7" rx="2" fill="#3d3760"/>
+  <!-- Comment sidebar indicator -->
+  <rect x="326" y="110" width="4" height="40" rx="2" fill="#f59e0b" opacity="0.7"/>
+  <text x="314" y="120" font-family="sans-serif" font-size="7" fill="#f59e0b">!</text>
+  <!-- Status bar -->
+  <rect x="20" y="202" width="320" height="18" rx="0" fill="#1a1530"/>
+  <rect x="20" y="202" width="320" height="18" rx="0" fill="#1a1530"/>
+  <circle cx="32" cy="211" r="4" fill="#28c840"/>
+  <text x="40" y="215" font-family="sans-serif" font-size="8" fill="#aaa6c3">3 collaborators online</text>
+  <text x="290" y="215" font-family="sans-serif" font-size="8" fill="#aaa6c3">saved</text>
+</svg>

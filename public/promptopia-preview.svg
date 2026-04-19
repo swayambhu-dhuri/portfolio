@@ -1,0 +1,50 @@
+<svg width="360" height="230" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230">
+  <!-- Background -->
+  <rect width="360" height="230" fill="#050816"/>
+  <!-- Navbar -->
+  <rect width="360" height="40" fill="#0d0b1e"/>
+  <text x="16" y="26" font-family="sans-serif" font-size="13" font-weight="800" fill="#915EFF">Promptopia</text>
+  <rect x="250" y="12" width="54" height="18" rx="9" fill="#1a1530"/>
+  <text x="261" y="25" font-family="sans-serif" font-size="8" fill="#aaa6c3">Sign In</text>
+  <circle cx="326" cy="21" r="10" fill="#915EFF"/>
+  <text x="320" y="26" font-family="sans-serif" font-size="9" font-weight="700" fill="#fff">SD</text>
+  <!-- Hero text -->
+  <text x="16" y="60" font-family="sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">Discover and Share</text>
+  <text x="16" y="75" font-family="sans-serif" font-size="12" font-weight="800" fill="#915EFF">AI-Powered Prompts</text>
+  <!-- Search bar -->
+  <rect x="16" y="83" width="328" height="26" rx="13" fill="#1a1530" stroke="#915EFF" stroke-width="1" opacity="0.6"/>
+  <text x="30" y="101" font-family="sans-serif" font-size="10" fill="#6b7280">Search for prompts, tags, or creators...</text>
+  <!-- Tag filters -->
+  <rect x="16" y="116" width="52" height="16" rx="8" fill="#915EFF" opacity="0.2"/>
+  <text x="22" y="128" font-family="sans-serif" font-size="8" fill="#915EFF">#all</text>
+  <rect x="74" y="116" width="58" height="16" rx="8" fill="#1a1530"/>
+  <text x="80" y="128" font-family="sans-serif" font-size="8" fill="#aaa6c3">#coding</text>
+  <rect x="138" y="116" width="58" height="16" rx="8" fill="#1a1530"/>
+  <text x="144" y="128" font-family="sans-serif" font-size="8" fill="#aaa6c3">#writing</text>
+  <rect x="202" y="116" width="62" height="16" rx="8" fill="#1a1530"/>
+  <text x="208" y="128" font-family="sans-serif" font-size="8" fill="#aaa6c3">#business</text>
+  <!-- Card 1 -->
+  <rect x="16" y="138" width="156" height="82" rx="10" fill="#1a1530"/>
+  <rect x="16" y="138" width="156" height="4" rx="2" fill="#915EFF"/>
+  <text x="26" y="158" font-family="sans-serif" font-size="9" fill="#e2e8f0">"Write a LinkedIn bio</text>
+  <text x="26" y="170" font-family="sans-serif" font-size="9" fill="#e2e8f0">for a senior SWE with</text>
+  <text x="26" y="182" font-family="sans-serif" font-size="9" fill="#e2e8f0">4 years in fintech"</text>
+  <rect x="26" y="190" width="40" height="12" rx="6" fill="#915EFF" opacity="0.2"/>
+  <text x="32" y="200" font-family="sans-serif" font-size="7" fill="#915EFF">#career</text>
+  <rect x="72" y="190" width="48" height="12" rx="6" fill="#915EFF" opacity="0.2"/>
+  <text x="78" y="200" font-family="sans-serif" font-size="7" fill="#915EFF">#linkedin</text>
+  <circle cx="154" cy="150" r="8" fill="#7c3aed"/>
+  <text x="150" y="154" font-family="sans-serif" font-size="7" font-weight="700" fill="#fff">SD</text>
+  <!-- Card 2 -->
+  <rect x="186" y="138" width="158" height="82" rx="10" fill="#1a1530"/>
+  <rect x="186" y="138" width="158" height="4" rx="2" fill="#00cea8"/>
+  <text x="196" y="158" font-family="sans-serif" font-size="9" fill="#e2e8f0">"Explain this Python</text>
+  <text x="196" y="170" font-family="sans-serif" font-size="9" fill="#e2e8f0">traceback and suggest</text>
+  <text x="196" y="182" font-family="sans-serif" font-size="9" fill="#e2e8f0">3 fixes with tradeoffs"</text>
+  <rect x="196" y="190" width="44" height="12" rx="6" fill="#00cea8" opacity="0.2"/>
+  <text x="202" y="200" font-family="sans-serif" font-size="7" fill="#00cea8">#coding</text>
+  <rect x="246" y="190" width="50" height="12" rx="6" fill="#00cea8" opacity="0.2"/>
+  <text x="252" y="200" font-family="sans-serif" font-size="7" fill="#00cea8">#python</text>
+  <circle cx="332" cy="150" r="8" fill="#059669"/>
+  <text x="328" y="154" font-family="sans-serif" font-size="7" font-weight="700" fill="#fff">AK</text>
+</svg>

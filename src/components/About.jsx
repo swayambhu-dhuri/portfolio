@@ -33,7 +33,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p variants={fadeIn("","", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled full-stack software developer with experience in Python and JavaScript. I've delivered over 15 projects using Django, FastAPI, ReactJS, Express, and Node.js. Proficient in front-end and back-end development, I offer efficient solutions with expertise in databases like MySQL, PostgreSQL, MongoDB, and Firebase. Currently pursuing an MS in Computer Science, I thrive in agile environments and excel at collaborating with cross-functional teams. My passion for innovative solutions, attention to detail, and commitment to excellence make me an ideal choice for any organization.
+        Software Development Engineer with 4+ years designing, building, and operating large-scale distributed systems across enterprise and startup environments. I specialize in backend development with Java (Spring Boot) and Python (FastAPI), with hands-on experience integrating Generative AI and LLMs into production systems. My work spans fintech, healthcare AI, HR tech, and edtech, including architecting real-time governance dashboards processing 200+ data sources at BNY Mellon and building AI-powered appeals platforms serving 40,000+ monthly appeals at CVS Health.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
